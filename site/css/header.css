@@ -1,0 +1,46 @@
+header {
+  background-color: #000;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  line-height: 70px;
+}
+.logo {
+}
+.logo-name {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.logo-name::after {
+  content: 'IT';
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 30px;
+  color: #EC7979;
+}
+.menu {
+}
+.menu-ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.menu-ul-item a {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 48px;
+  transition: 0.2s;
+}
+.menu-ul-item :hover {
+  color: #EC7979;
+}

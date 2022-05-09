@@ -1,0 +1,38 @@
+.social {
+  background-color: #F8EFEF;
+  padding: 15px ;
+}
+.social-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-main-text {
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.social-text {
+  font-family: 'Open Sans';
+  font-weight: 400px;
+  font-size: 14px;
+  color: #86878B;
+  width: 365px;
+}
+.social-contacts {
+  display: flex;
+}
+.icon-social {
+  color: #86878B;
+  font-size: 45px;
+  margin-left: 15px;
+  transition: 0.1s;
+}
+.icon-social:hover{
+  transition: 0.1s;
+  transform: scale(1.9);
+}

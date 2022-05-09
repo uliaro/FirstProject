@@ -1,0 +1,146 @@
+.axit {
+  background: url('../img/background-1\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  /* height: 600px; */
+}
+.axit::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+.axit-wrap {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.axit-left {
+  width: 545px;
+}
+.axit-ax {
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.axit-ax::after {
+  content: 'it';
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 60px;
+  color: #EC7979;
+}
+.axit-title {
+  font-family: 'Raleway';
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 42px;
+}
+.axit-title::after {
+  content: '';
+  display: block;
+  width: 64px;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.axit-text {
+  width: 294px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 58px;
+}
+.axit-link {
+  width: 135px;
+  line-height: 42px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.axit-link-text {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+.axit-link:hover{
+  transition: 0.2s;
+  transform: scale(1.5);
+  box-shadow: -5px 5px 5px rgba(163, 158, 158, 0.5);
+}
+.axit-form {
+  width: 370px;
+}
+.form-content {
+  padding: 18px 59px;
+  background-color: #fff;
+  border-radius: 8px 8px 0px 0px;
+}
+.form-title {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.form-title span {
+  content: 'free';
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  color: #EC7979;
+  text-transform: uppercase;
+}
+.axit-form-item {
+  margin-bottom: 20px;
+}
+.axit-form-item label {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #BDBDBD;
+  margin-bottom: 16px;
+}
+.axit-form-item input {
+  width: 100%;
+  height: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #BDBDBD;
+  outline: none;
+}
+
+.axit-form-button button {
+  display: block;
+  background: #EC7979;
+  line-height: 55px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px 0px 8px 8px;
+}

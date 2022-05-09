@@ -1,0 +1,65 @@
+.price {
+background-color:  #F5F5F5;
+}
+.price-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.price-list {
+  width: 340px;
+  box-shadow: 8px 10px 20px 0px rgba(81, 78, 78, 0.5);
+  transition: 0.2s;
+  margin-bottom: 10px;
+}
+.price-list:last-child{
+  margin-bottom: none;
+}
+.price-list:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.price-list-name {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.price-list-value {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+  background-color: #333;
+  line-height: 100px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.price-list-description {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #333;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.price-list-item {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878B;
+  background-color: #fff;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.price-list-item:last-child {
+  margin-bottom: 0px;
+}

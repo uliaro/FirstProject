@@ -1,0 +1,66 @@
+.customers-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.customer-wrap-item {
+  margin-bottom: 15px;
+}
+.customer-review {
+  width: 298px;
+  background-color: #E2E2E2;
+  border-radius: 7px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.customer-review-text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878B;
+  padding: 15px;
+  text-align: center;
+}
+.customer-review-text::after {
+  content: '';
+  position: absolute;
+  left: 45px;
+  top: 100%;
+  border: 20px solid transparent;
+  border-top: 20px solid #E2E2E2;
+}
+.customer-inf {
+  display: flex;
+  justify-content: space-around;
+}
+.customer-inf-picture {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customer-photo {
+}
+.customer-inf-name {
+
+}
+.customer-name {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+  display: block;
+  text-align: right;
+  margin-bottom: 12px;
+}
+.customer-job {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878B;
+  display: block;
+  text-align: right;
+}

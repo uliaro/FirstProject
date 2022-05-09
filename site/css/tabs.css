@@ -1,0 +1,71 @@
+.tabs {
+}
+.tabs-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.tab-items {
+}
+.item {
+  width: 112px;
+  line-height: 110px;
+  background-color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.item:last-child {
+  margin-bottom: none;
+}
+.item:hover {
+  background-color: #EC7979;
+  transition: 0.2s;
+}
+.tabs-text {
+  width: 572px;
+  margin-left: 58px;
+}
+.tabs-tittle {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+}
+.tabs-text-top {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878B;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.tabs-text-bottom {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878B;
+  text-transform: uppercase;
+  margin-bottom: 89px;
+}
+.tabs-link {
+  width: 135px;
+  line-height: 42px;
+  background-color: #EC7979;
+  text-align: center;
+  cursor: pointer;
+}
+.tabs-link a{
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+}
